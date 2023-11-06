@@ -1,0 +1,90 @@
+@import '../variables';
+@import '../mixins';
+@import '../animations';
+
+
+.navigation {
+
+
+    &__navButton {
+
+        position: fixed;
+        z-index: 5;
+        top: 5rem;
+        right: 20rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        background-color: rgba(255, 255, 255, 0.03);
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 1rem;
+        cursor: pointer;
+        transition: all .3s ease-out;
+
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.06);
+        }
+        
+
+        &_icon {
+            height: 80%;
+            width: 100%;
+            transition: all .3s ease-in-out;
+        }
+    }
+
+
+
+
+    &__navBarPosition {
+        position: fixed;
+        transition: all .5s ease-out;
+    }
+
+
+
+    &__bar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50rem;
+        height: 100vh;
+        background-color: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        text-align: center;
+        transition: all .5s ease-out;
+
+        &_list {
+             
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            color: $color-white;
+            font-size: 1.8rem;
+            font-weight: 300;
+
+            &-itemLink {
+                padding: 5rem 2rem;
+                transition: all .3s ease-out;
+
+                &:hover {
+                    background-color: rgba(255, 255, 255, 0.08);
+                }
+            }
+        }
+    }
+}
+
+
+.navButtonRotate {
+    transform: rotate(180deg);
+}
+.navExpand {
+    right: 0 !important;
+}
+.navCollapse {
+    right: -50% !important;
+}

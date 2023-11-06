@@ -12,6 +12,7 @@
 @import 'styles/components/projectItem';
 
 // Sections
+@import 'styles/sections/home';
 @import 'styles/sections/about';
 @import 'styles/sections/education';
 @import 'styles/sections/projects';
@@ -19,7 +20,7 @@
 
 
 
-// Base stuff
+// Base Stylings
 .App {
     // Overall Styles may be added
 }
@@ -44,6 +45,7 @@
   body {
     position: relative;
     overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
     background-color: $color-primary-dark;
     font-size: 1.6rem;
     line-height: 1;
@@ -52,6 +54,10 @@
   a {
     text-decoration: none;
     color: inherit;
+  }
+  ul {
+    list-style: none;
+    text-decoration: none;
   }
   
   
