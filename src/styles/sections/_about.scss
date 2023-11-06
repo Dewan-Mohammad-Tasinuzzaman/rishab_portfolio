@@ -1,0 +1,51 @@
+@import '../variables';
+@import '../mixins';
+@import '../utilityClasses';
+@import '../variables';
+
+#section-about {
+
+}
+
+.about {
+
+    background-color: $color-grey-3;
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+    width: 100%;
+
+    &__content {
+
+        color: $color-white;
+        display: inline-block;
+
+        & > * {
+            margin-bottom: 3rem;
+        }
+
+        &_title {
+            font-size: 4.2rem;
+        }
+        &_text {
+            font-size: 2rem;
+            line-height: 2;
+            font-weight: 300;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid $color-grey-1;
+        }
+
+        &_resumeButton {
+            display: inline-block;
+            font-size: 1.8rem;
+            background-color: $color-primary-red;
+            padding: 2rem 10rem;
+            transition: all .3s ease-out;
+
+            &:hover {
+                background-color: $color-primary-red-lighter;
+            }
+            &:active {
+                background-color: $color-primary-red-darker;
+            }
+        }
+    }
+}

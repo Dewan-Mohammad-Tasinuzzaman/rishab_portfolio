@@ -1,0 +1,31 @@
+@import '../variables';
+@import '../mixins';
+@import '../utilityClasses';
+@import '../variables';
+
+#section-education {
+
+}
+
+.education {
+
+    background-color: $color-primary-red-darker;
+    clip-path: polygon(0 5%, 100% 0%, 100% 95%, 0% 100%);
+    width: 100%;
+
+    &__content {
+
+        color: $color-white;
+        display: inline-block;
+
+        &_title {
+            font-size: 4.2rem;
+            margin-bottom: 8rem;
+        }
+
+
+        &_list {
+
+        }
+    }
+}

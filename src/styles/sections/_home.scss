@@ -1,3 +1,7 @@
+@import '../variables';
+@import '../mixins';
+@import '../utilityClasses';
+@import '../variables';
 
 #section-home {
     height: 100vh;
@@ -11,7 +15,6 @@
 
     display: flex;
     align-items: center;
-    margin: 0 20rem;
     width: 100%;
     justify-content: space-between;
 
