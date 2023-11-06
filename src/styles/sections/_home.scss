@@ -23,6 +23,7 @@
             font-weight: 300;
             letter-spacing: 2px;
             border-bottom: 1px solid $color-grey-1;
+            width: 35rem;
 
             & > *:not(:last-child) {
                 margin-bottom: 2rem;
@@ -75,9 +76,13 @@
 
 
         &_box {
+            // This box helps adjust overall size and positioning
+            width: 60rem;
 
+            // Temporary - Will animate later...
             &-image {
-
+                width: 100%;
+                height: auto;
             }
         }
     }
