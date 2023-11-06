@@ -54,6 +54,7 @@
         height: 100vh;
         background-color: rgba(255, 255, 255, 0.05);
         backdrop-filter: blur(10px);
+        box-shadow: -3px 0px 20px rgba(0, 0, 0, 0.2);
         text-align: center;
         transition: all .5s ease-out;
 
@@ -65,6 +66,7 @@
             color: $color-white;
             font-size: 1.8rem;
             font-weight: 300;
+            letter-spacing: 2px;
 
             &-itemLink {
                 padding: 5rem 2rem;
@@ -72,6 +74,9 @@
 
                 &:hover {
                     background-color: rgba(255, 255, 255, 0.08);
+                }
+                &:active {
+                    background-color: rgba(255, 255, 255, 0.4);
                 }
             }
         }
