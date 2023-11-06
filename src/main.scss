@@ -1,0 +1,105 @@
+// IMPORTS
+
+// Helpers
+@import 'styles/variables';
+@import 'styles/utilityClasses';
+@import 'styles/animations';
+@import 'styles/mixins';
+
+// Component-specific styles
+@import 'styles/components/nav';
+@import 'styles/components/educationItem';
+@import 'styles/components/projectItem';
+
+// Sections
+@import 'styles/sections/about';
+@import 'styles/sections/education';
+@import 'styles/sections/projects';
+@import 'styles/sections/contacts';
+
+
+
+// Base stuff
+.App {
+    // Overall Styles may be added
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px, 10px/16px
+  
+  }
+  
+  body {
+    position: relative;
+    overflow-x: hidden;
+    background-color: $color-primary-dark;
+    font-size: 1.6rem;
+    line-height: 1;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  
+  
+  
+  
+  
+  
+  //CUSTOM HIGHLIGHT
+  ::selection {
+    background: rgb(222, 222, 222);
+    color: black;
+  }
+  ::-moz-selection {
+    background: rgb(222, 222, 222);
+    color: black;
+  }
+  
+  
+  
+  // 800px and OVER - For Custom Scrollbar
+  @media (min-width: 50em) {
+  
+    //CUSTOM SCROLL-BAR
+    /* width */
+    ::-webkit-scrollbar {
+      width: 1rem;
+    }
+  
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #161616;
+    }
+  
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background-color: rgb(190, 190, 190);
+      border-radius: 2px;
+      transition: all .4s ease-out;
+    }
+  
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background-color: rgb(226, 226, 226);
+    }
+  
+    ::-webkit-scrollbar-thumb:active {
+      background-color: rgb(180, 180, 180);
+    }
+  
+  };
