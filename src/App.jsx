@@ -9,8 +9,8 @@ import {faFile} from '@fortawesome/free-solid-svg-icons';
 // import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 
 import homeIllustrationImage from './assets/svg/hero_illustration_static.svg';
-import ProjectImageCarpoolWebsite from './assets/images/Car_Pooling_Website_ProjectImage.png';
-import ProjectImageHospitalDatabaseManagement from './assets/images/Hospital_Database_Management_ProjectImage.png';
+import ProjectImageCarpoolWebsite from './assets/images/project_image_1.png';
+import ProjectImageHospitalDatabaseManagement from './assets/images/project_image_2.png';
 import Resume from './assets/files/SachdevaRishab_Resume.docx';
 
 // Components
