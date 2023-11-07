@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.750c4140.css",
+    "main.js": "/static/js/main.4dcbc509.js",
+    "static/js/787.c49405fc.chunk.js": "/static/js/787.c49405fc.chunk.js",
+    "static/media/project_image_1.png": "/static/media/project_image_1.9fff0f42c1c150fead72.png",
+    "static/media/project_image_2.png": "/static/media/project_image_2.6b087f4abb54bcda0296.png",
+    "static/media/SachdevaRishab_Resume.docx": "/static/media/SachdevaRishab_Resume.1846b1f3ef6768f9540f.docx",
+    "static/media/hero_illustration_static.svg": "/static/media/hero_illustration_static.772846a2847db46e7361ab89da0aaf9e.svg",
+    "index.html": "/index.html",
+    "main.750c4140.css.map": "/static/css/main.750c4140.css.map",
+    "main.4dcbc509.js.map": "/static/js/main.4dcbc509.js.map",
+    "787.c49405fc.chunk.js.map": "/static/js/787.c49405fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.750c4140.css",
+    "static/js/main.4dcbc509.js"
+  ]
+}
