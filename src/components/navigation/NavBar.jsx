@@ -27,10 +27,10 @@ function NavBar() {
       <div className={navBarClasses}>
         <div className="navigation__bar">
           <div className="navigation__bar_list">
-            <a href="#section-home" className="navigation__bar_list-itemLink">Home</a>
-            <a href="#section-about" className="navigation__bar_list-itemLink">About</a>
-            <a href="#section-education" className="navigation__bar_list-itemLink">Education</a>
-            <a href="#section-projects" className="navigation__bar_list-itemLink">Projects</a>
+            <a href="#section-home" className="navigation__bar_list-itemLink" onClick={toggleNav}>Home</a>
+            <a href="#section-about" className="navigation__bar_list-itemLink" onClick={toggleNav}>About</a>
+            <a href="#section-education" className="navigation__bar_list-itemLink" onClick={toggleNav}>Education</a>
+            <a href="#section-projects" className="navigation__bar_list-itemLink" onClick={toggleNav}>Projects</a>
           </div>
         </div>
       </div>

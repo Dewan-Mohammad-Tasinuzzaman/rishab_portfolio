@@ -18,6 +18,10 @@
     width: 100%;
     justify-content: space-between;
 
+    @include respond(laptop) {
+        flex-direction: column;
+    }
+
     &__headerBox {
 
 
@@ -27,6 +31,11 @@
             letter-spacing: 2px;
             border-bottom: 1px solid $color-grey-1;
             width: 35rem;
+
+            @include respond(laptop) {
+                text-align: center;
+            }
+        
 
             & > *:not(:last-child) {
                 margin-bottom: 2rem;
@@ -53,6 +62,11 @@
             align-items: center;
             margin-top: 4rem;
 
+            @include respond(laptop) {
+                justify-content: center;
+            }
+        
+
 
             &-link {
 
@@ -77,10 +91,18 @@
 
     &__illustration {
 
+        @include respond(laptop) {
+            margin-top: 6rem;
+        }
 
         &_box {
             // This box helps adjust overall size and positioning
             width: 60rem;
+
+            @include respond(laptop) {
+                width: 30rem;
+            }
+        
 
             // Temporary - Will animate later...
             &-image {

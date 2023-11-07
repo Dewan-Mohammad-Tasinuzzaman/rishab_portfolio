@@ -1,6 +1,26 @@
+@import './mixins';
+
+// Global Page Margins
 .global_side_margins {
     margin: 0 20rem;
+
+    @include respond(laptop) {
+        margin: 0 10rem;
+    }
+    @include respond(tablet-small) {
+        margin: 0 4rem;
+    }
 }
 .global_vertical_padding {
     padding: 15rem 0;
+}
+
+
+
+// Full Width/Height
+.full-width {
+    width: 100%;
+}
+.full-height {
+    height: 100%;
 }

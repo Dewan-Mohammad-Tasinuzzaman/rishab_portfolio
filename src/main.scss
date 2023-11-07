@@ -39,6 +39,13 @@
     scroll-behavior: smooth;
     box-sizing: border-box;
     font-size: 62.5%; //1rem = 10px, 10px/16px
+
+    @include respond(phone) {
+      font-size: 48.5%;
+    }
+    @include respond(phone-small) {
+      font-size: 40.5%;
+    }
   
   }
   
